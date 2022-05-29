@@ -1,5 +1,18 @@
 # Desafio programação - para vaga desenvolvedor
 
+### User Manual
+
+- Click at any time on the "MAIN MENU" button to open the homepage
+  ![HomePage](/img/mainMenu.png)
+- Click at any time on the "UPLOAD CNAB" button to open the CNAB Uploader menu
+  ![CnabUploader](/img/CnabUploader.png)
+- Click at any time on the "UPLOAD CNAB" button inside the CNAB Uploader to choose the file path where the CNAB file is located. Once you selected the right file the CNAB will automatcly upload itself to the database
+  ![CnabUploader](/img/CnabUploaded.png)
+- Click at any time on the "TRANSACTIONS LIST" button to see all the transactions that are located in the database
+  ![TransactionsList](/img/transactionsList.png)
+- Click at any time on the "BALANCE LIST" button to see the balance calculation from all clients located in the database
+  ![TransactionsList](/img/balanceList.png)
+
 ### Features
 
 - Upload a CNAB file into the sql database;

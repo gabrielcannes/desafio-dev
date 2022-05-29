@@ -10,7 +10,7 @@ namespace Desafio_devcsharp
         public DataTable selectAllFromTransactionsOrderByCPF()
         {
             SqlConnection connection = new SqlConnection(connectionString);
-            SqlCommand command = new SqlCommand("SELECT * FROM transactions order by cpf", connection);
+            SqlCommand command = new SqlCommand("SELECT * FROM transactions t order by cpf", connection);
             SqlDataAdapter adapter = new SqlDataAdapter();
             adapter.SelectCommand = command;
             DataTable dt = new DataTable();
