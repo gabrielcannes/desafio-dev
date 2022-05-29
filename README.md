@@ -1,4 +1,4 @@
-# Desafio programação - para vaga desenvolvedor
+# Desafio programação
 
 ### User Manual
 
